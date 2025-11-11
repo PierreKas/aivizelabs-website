@@ -1740,7 +1740,7 @@ const AivizeWebsite = () => {
             {duplicatedTools.map((tool, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 mx-8 w-24 h-24 flex items-center justify-center transition-all duration-300 opacity-80 hover:opacity-100 hover:scale-110"
+                className="flex-shrink-0 mx-8 sm:h-24 sm:w-24 sm:mx-8 w-12 h-12 flex items-center justify-center transition-all duration-300 opacity-80 hover:opacity-100 hover:scale-110"
               >
                 <img
                   src={tool.logo}
@@ -1764,7 +1764,7 @@ const AivizeWebsite = () => {
         }
 
         .animate-scroll {
-          animation: scroll 30s linear infinite;
+          animation: scroll 8s linear infinite;
         }
 
         .animate-scroll:hover {
