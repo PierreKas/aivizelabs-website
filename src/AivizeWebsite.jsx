@@ -1210,7 +1210,7 @@ const AivizeWebsite = () => {
             <source src={heroVideo} type="video/mp4" />
             Your browser doesn't support the video tag
           </video>
-          <div className="absolute inset-0 bg-black/45 dark:bg-black/60"></div>
+          <div className="absolute inset-0 bg-black/40 dark:bg-black/80"></div>
         </div>
 
         <div className="relative w-full px-6 text-center py-12">
