@@ -1268,6 +1268,73 @@ const AivizeWebsite = () => {
               intelligence
             </p>
           </div>
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+                alt="Human-centered teamwork"
+                className="w-full h-40 object-cover rounded-lg mb-6 opacity-75"
+              />
+              <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-4 animate-pulse">
+                <Users className="text-cyan-400" size={24} />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Human-Centered AI</h3>
+              <p className="text-gray-400">
+                AI should be human-centered, not machine-driven.
+              </p>
+            </div>
+            <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20 delay-100 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80"
+                alt="African business context"
+                className="w-full h-40 object-cover rounded-lg mb-6 opacity-75"
+              />
+              <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center animate-spin justify-center mb-4 delay-100">
+                <Target className="text-cyan-400" size={24} />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Local Context</h3>
+              <p className="text-gray-400">
+                Solutions must reflect local workflows, languages, and contexts.
+              </p>
+            </div>
+            <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20 delay-200 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80"
+                alt="Accessible innovation and technology"
+                className="w-full h-40 object-cover rounded-lg mb-6 opacity-75"
+              />
+              <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-4 animate-pulse delay-200">
+                <TrendingUp className="text-cyan-400" size={24} />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Accessible Innovation</h3>
+              <p className="text-gray-400">
+                Innovation should be accessible at scale — not a luxury for a
+                few.
+              </p>
+            </div>
+          </div>
+          <div className="text-center p-8 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 rounded-2xl hover:border-cyan-500/50 transition-all duration-300">
+            <h3 className="text-2xl font-bold mb-4">Impact Vision</h3>
+            <p className="text-xl text-gray-300">
+              To make Africa's digital transformation intelligent, inclusive,
+              and sustainable.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* <section id="about" className="py-20 bg-slate-800/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+              Building Africa's Intelligent Enterprise
+            </h2>
+            <p className="text-xl text-gray-300 max-w-4xl mx-auto">
+              Aivize Labs is a hybrid AI consulting and engineering company
+              helping African organizations transition from digitization to
+              intelligence
+            </p>
+          </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20">
@@ -1310,10 +1377,191 @@ const AivizeWebsite = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Solutions Section */}
       <section id="solutions" className="py-20 bg-slate-950">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-sm text-cyan-400 mb-4">
+              SOLUTIONS — What We Deliver
+            </div>
+            <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+              From Diagnosis to Delivery
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              We help organizations bridge the gap between potential and
+              performance through an integrated value chain:
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="p-8 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                alt="Data analytics and diagnostics"
+                className="w-full h-40 object-cover rounded-lg mb-6 opacity-75"
+              />
+              <div className="w-16 h-16 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6">
+                <Search className="text-cyan-400" size={32} />
+              </div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-3xl font-bold text-cyan-400">01</span>
+                <h3 className="text-2xl font-bold">Intelligence Diagnostics</h3>
+              </div>
+              <p className="text-gray-300 mb-4">
+                Identify hidden inefficiencies, data gaps, and automation
+                opportunities.
+              </p>
+              <div className="pt-4 border-t border-slate-700">
+                <p className="text-sm text-gray-400 mb-2 font-semibold animate-pulse">
+                  Deliverable:
+                </p>
+                <p className="text-cyan-400">
+                  AI Readiness & Process Intelligence Report
+                </p>
+              </div>
+            </div>
+
+            <div className="p-8 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20 delay-100 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+                alt="Technology deployment and development"
+                className="w-full h-40 object-cover rounded-lg mb-6 opacity-75"
+              />
+              <div className="w-16 h-16 bg-blue-500/10 rounded-xl flex items-center justify-center mb-6">
+                <Cog className="text-blue-400 animate-spin" size={32} />
+              </div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-3xl font-bold text-blue-400">02</span>
+                <h3 className="text-2xl font-bold">Design & Deployment</h3>
+              </div>
+              <p className="text-gray-300 mb-4">
+                Build and implement intelligent systems aligned with real
+                operational needs.
+              </p>
+              <div className="pt-4 border-t border-slate-700">
+                <p className="text-sm text-gray-400 mb-2 font-semibold animate-pulse">
+                  Deliverable:
+                </p>
+                <p className="text-blue-400">
+                  Tailored automation and engagement solutions
+                </p>
+              </div>
+            </div>
+
+            <div className="p-8 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 delay-200 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+                alt="Performance optimization dashboard"
+                className="w-full h-40 object-cover rounded-lg mb-6 opacity-75"
+              />
+              <div className="w-16 h-16 bg-purple-500/10 rounded-xl flex items-center justify-center mb-6">
+                <RefreshCw className="text-purple-400" size={32} />
+              </div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-3xl font-bold text-purple-400">03</span>
+                <h3 className="text-2xl font-bold">
+                  Optimization-as-a-Service
+                </h3>
+              </div>
+              <p className="text-gray-300 mb-4">
+                Monitor, maintain, and continuously improve deployed systems for
+                evolving business contexts.
+              </p>
+              <div className="pt-4 border-t border-slate-700">
+                <p className="text-sm text-gray-400 mb-2 font-semibold animate-pulse">
+                  Deliverable:
+                </p>
+                <p className="text-purple-400">
+                  Performance dashboards and iterative improvement cycles
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-8 text-center">
+              Sample Use Cases
+            </h3>
+            <div className="space-y-6">
+              <div className="p-6 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105">
+                <div className="flex items-start gap-6">
+                  <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center shrink-0">
+                    <Zap className="text-cyan-400" size={24} />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="text-xl font-bold mb-2">
+                      Smart Workflow Automation
+                    </h4>
+                    <p className="text-gray-300">
+                      Reduce process time by up to 40%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-6 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 delay-100">
+                <div className="flex items-start gap-6">
+                  <div className="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center shrink-0">
+                    <Users className="text-blue-400" size={24} />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="text-xl font-bold mb-2">
+                      AI Customer Engagement
+                    </h4>
+                    <p className="text-gray-300">
+                      Improve client responsiveness and retention by 25–35%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-6 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 delay-200">
+                <div className="flex items-start gap-6">
+                  <div className="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center shrink-0">
+                    <TrendingUp className="text-purple-400" size={24} />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="text-xl font-bold mb-2">
+                      Data Intelligence Engine
+                    </h4>
+                    <p className="text-gray-300">
+                      Transform data silos into predictive insights.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 rounded-2xl border border-slate-700 p-8 mb-12 hover:border-cyan-500/30 transition-all duration-300">
+            <h3 className="text-xl font-bold mb-6 text-center">Built For</h3>
+            <div className="flex flex-wrap justify-center gap-3">
+              <span className="px-4 py-2 bg-slate-900 border border-cyan-500/30 rounded-full text-cyan-400 hover:bg-cyan-500/10 transition-all duration-300">
+                Low-data environments
+              </span>
+              <span className="px-4 py-2 bg-slate-900 border border-blue-500/30 rounded-full text-blue-400 hover:bg-blue-500/10 transition-all duration-300 delay-100">
+                Multi-language interfaces
+              </span>
+              <span className="px-4 py-2 bg-slate-900 border border-purple-500/30 rounded-full text-purple-400 hover:bg-purple-500/10 transition-all duration-300 delay-200">
+                African infrastructure realities
+              </span>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="animate-bounce px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 inline-flex items-center gap-2 text-white hover:scale-105"
+            >
+              Request a Diagnostic or Demo
+              <ArrowRight size={20} />
+            </button>
+          </div>
+        </div>
+      </section>
+      {/* <section id="solutions" className="py-20 bg-slate-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-sm text-cyan-400 mb-4">
@@ -1478,7 +1726,7 @@ const AivizeWebsite = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Impact Section */}
       <section id="impact" className="py-20 bg-slate-800/50">
@@ -1616,6 +1864,87 @@ const AivizeWebsite = () => {
               execution.
             </p>
           </div>
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+                alt="Business growth charts"
+                className="w-full h-48 object-cover rounded-lg mb-6 opacity-80"
+              />
+              <Rocket className="text-cyan-400 mb-4" size={32} />
+              <h3 className="text-2xl font-bold mb-4">Strong Margins</h3>
+              <p className="text-gray-300 mb-2">
+                65–70% gross margin potential
+              </p>
+              <div className="w-full bg-slate-700 rounded-full h-2">
+                <div
+                  className="bg-gradient-to-r from-cyan-500 to-blue-600 h-2 rounded-full transition-all duration-1000"
+                  style={{ width: "70%" }}
+                ></div>
+              </div>
+            </div>
+            <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 delay-100 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                alt="Fast growth metrics"
+                className="w-full h-48 object-cover rounded-lg mb-6 opacity-80"
+              />
+              <Zap className="text-blue-400 mb-4" size={32} />
+              <h3 className="text-2xl font-bold mb-4">Fast Payback</h3>
+              <p className="text-gray-300">
+                Customer Acquisition Cost recovered in less than 6 months
+              </p>
+            </div>
+            <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 delay-200 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=800&q=80"
+                alt="African cityscape and technology"
+                className="w-full h-48 object-cover rounded-lg mb-6 opacity-80"
+              />
+              <TrendingUp className="text-purple-400 mb-4" size={32} />
+              <h3 className="text-2xl font-bold mb-4">Growing Market</h3>
+              <p className="text-gray-300">
+                $2.5B early adopter segment across Rwanda, Kenya, and Nigeria
+              </p>
+            </div>
+            <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-green-500/50 transition-all duration-300 hover:scale-105 delay-300 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&q=80"
+                alt="Business model strategy"
+                className="w-full h-48 object-cover rounded-lg mb-6 opacity-80"
+              />
+              <Target className="text-green-400 mb-4" size={32} />
+              <h3 className="text-2xl font-bold mb-4">Lean Model</h3>
+              <p className="text-gray-300">
+                SaaS + Custom Projects + Advisory revenue streams
+              </p>
+            </div>
+          </div>
+          <div className="text-center">
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 text-lg inline-flex items-center gap-2 hover:scale-105"
+            >
+              Explore Investment Opportunities
+              <ArrowRight size={20} />
+            </button>
+          </div>
+        </div>
+      </section>
+      {/* <section id="opportunity" className="py-20 bg-slate-800/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+              Africa's $20 Billion AI Opportunity
+            </h2>
+            <p className="text-xl text-gray-300 max-w-4xl mx-auto">
+              Africa's enterprise AI and automation market is projected to
+              surpass $20B by 2030, driven by digitization, fintech adoption,
+              and mobile-first business growth. Aivize Labs is positioned at the
+              heart of this shift, combining SaaS scalability with localized
+              execution.
+            </p>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105">
@@ -1667,59 +1996,8 @@ const AivizeWebsite = () => {
             </button>
           </div>
         </div>
-      </section>
-      {/**TOOLS */}
-      {/* <section className="py-20 bg-slate-900/50 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-          <p className="text-xl text-center text-gray-300 max-w-4xl mx-auto">
-            Aivize Labs seamlessly integrates with a wide range of popular
-            industry tools, allowing you to work effortlessly within your
-            existing workflow and enhance productivity without disruption.
-          </p>
-        </div>
+      </section> */}
 
-    
-        <div className="relative">
-         
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-slate-900/50 to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-slate-900/50 to-transparent z-10"></div>
-
-       
-          <div className="flex animate-scroll">
-            {duplicatedTools.map((tool, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 mx-8 w-24 h-24 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
-              >
-                <img
-                  src={tool.logo}
-                  alt=""
-                  className="w-full h-full object-contain filter brightness-0 invert"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <style jsx>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-33.333%);
-          }
-        }
-
-        .animate-scroll {
-          animation: scroll 30s linear infinite;
-        }
-
-        .animate-scroll:hover {
-          animation-play-state: paused;
-        }
-      `}</style> */}
       <section className="py-20 bg-slate-900/50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
           <p className="text-xl text-center text-gray-300 max-w-4xl mx-auto">
