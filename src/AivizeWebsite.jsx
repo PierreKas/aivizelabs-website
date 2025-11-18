@@ -788,7 +788,7 @@
 
 // export default AivizeWebsite;
 import React, { useState, useEffect } from "react";
-import heroVideo from "./assets/video3.mp4";
+import heroVideo from "./assets/hero-video.mp4";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import emailjs from "@emailjs/browser";
